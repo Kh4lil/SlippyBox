@@ -190,7 +190,7 @@ GameObject:
   - component: {fileID: 462492411}
   - component: {fileID: 462492410}
   m_Layer: 5
-  m_Name: Thanks
+  m_Name: WelcomeTo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -212,7 +212,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 58.4}
+  m_AnchoredPosition: {x: 0, y: 74.2}
   m_SizeDelta: {x: 347, y: 78.21}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &462492410
@@ -235,7 +235,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 45049a0fdf4ca40329c0dd99009f82d8, type: 3}
-    m_FontSize: 30
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
@@ -246,7 +246,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Thanks for playing!
+  m_Text: Welcome To
 --- !u!222 &462492411
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -366,7 +366,7 @@ GameObject:
   - component: {fileID: 816190055}
   - component: {fileID: 816190054}
   m_Layer: 5
-  m_Name: MadeBy
+  m_Name: Title
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -388,8 +388,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: 22.9}
-  m_SizeDelta: {x: 342.6, y: 33.28}
+  m_AnchoredPosition: {x: 2.2, y: 18.1}
+  m_SizeDelta: {x: 342.6, y: 46.47}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &816190054
 MonoBehaviour:
@@ -404,90 +404,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
+  m_Color: {r: 0.8679245, g: 0.10234957, b: 0.14509492, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: ba2fb85c3f243484abae477f3f264520, type: 3}
-    m_FontSize: 15
-    m_FontStyle: 0
-    m_BestFit: 0
-    m_MinSize: 0
-    m_MaxSize: 300
-    m_Alignment: 4
-    m_AlignByGeometry: 0
-    m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
-    m_LineSpacing: 1
-  m_Text: 'Made by:'
---- !u!222 &816190055
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 816190052}
-  m_CullTransparentMesh: 0
---- !u!1 &918983295
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 918983296}
-  - component: {fileID: 918983298}
-  - component: {fileID: 918983297}
-  m_Layer: 5
-  m_Name: Khalil
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &918983296
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918983295}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1970512530}
-  m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 2.2, y: -19.190002}
-  m_SizeDelta: {x: 342.6, y: 50.9}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &918983297
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918983295}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
-  m_RaycastTarget: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_FontData:
-    m_Font: {fileID: 12800000, guid: 45049a0fdf4ca40329c0dd99009f82d8, type: 3}
     m_FontSize: 30
     m_FontStyle: 0
     m_BestFit: 0
@@ -499,14 +422,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: '@Kh4lilO'
---- !u!222 &918983298
+  m_Text: SlippyBox
+--- !u!222 &816190055
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918983295}
+  m_GameObject: {fileID: 816190052}
   m_CullTransparentMesh: 0
 --- !u!1 &1325319659
 GameObject:
@@ -727,7 +650,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: QUIT
+  m_Text: START
 --- !u!222 &1728893699
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -749,7 +672,7 @@ GameObject:
   - component: {fileID: 1970512532}
   - component: {fileID: 1970512531}
   m_Layer: 5
-  m_Name: Credits
+  m_Name: Welcome
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -768,7 +691,6 @@ RectTransform:
   m_Children:
   - {fileID: 462492409}
   - {fileID: 816190053}
-  - {fileID: 918983296}
   - {fileID: 2030230948}
   m_Father: {fileID: 579604177}
   m_RootOrder: 0
@@ -787,7 +709,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1970512529}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f8be6ed50fc9a486c9035ad2c3702e75, type: 3}
+  m_Script: {fileID: 11500000, guid: 9c1321f0c32894eda9f69928b4a5f235, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &1970512532
@@ -858,7 +780,7 @@ RectTransform:
   m_Children:
   - {fileID: 1728893697}
   m_Father: {fileID: 1970512530}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -921,7 +843,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1970512531}
-        m_MethodName: Quit
+        m_MethodName: StartGame
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
